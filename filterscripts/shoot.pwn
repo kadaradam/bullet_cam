@@ -18,7 +18,7 @@ public OnFilterScriptInit()
 }
 public OnPlayerWeaponShot(playerid, weaponid, hittype, hitid, Float:fX, Float:fY, Float:fZ)
 {
-	if(hittype == 0)
+	if(hittype == 0 || hittype == 3 || hittype == 4)
 	{
 		if(weaponid == 34)
 		{
