@@ -9,7 +9,6 @@ https://www.youtube.com/watch?v=5x7flKNjCRQ
 */
 
 #include <a_samp>
-#include <zcmd>
 #define CAMERA_MOVE_TIME 5000
 
 public OnFilterScriptInit()
